@@ -6,10 +6,10 @@
 
 
  const Palindrome = function (x) {
-    return x < 0 ? false : (x === +x.toString().split("").reverse().join(""));
+   return x < 0 ? false : (x === +x.toString().split("").reverse().join(""));
  };
 
  const res = Palindrome(121);
  console.log(res);
 
- // 121 => "121" => ["1","2","1"] => ["1","2","1"] => "121"
+ // 121 => "121" => ["1","2","1"] => ["1","2","1"] => "121" => 121
